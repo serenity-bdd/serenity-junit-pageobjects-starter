@@ -1,6 +1,6 @@
 # Serenity JUnit Starter project
 
-Get started quickly with Serenity BDD and JUnit 5 with this simple starter project. 
+Get started quickly with Serenity BDD and JUnit 5 using Page Objects and Action Classes with this simple starter project. 
 
 ## Get the code
 

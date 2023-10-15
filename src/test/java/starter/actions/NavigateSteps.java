@@ -8,7 +8,7 @@ public class NavigateSteps extends UIInteractionSteps {
 
     SearchForm searchForm;
 
-    @Step("User opens the DuckDuckGo home page")
+    @Step("User opens the home page")
     public void opensTheHomePage() {
         searchForm.open();
     }

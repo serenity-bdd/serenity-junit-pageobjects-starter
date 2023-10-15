@@ -8,6 +8,8 @@ import starter.pageobjects.SearchForm;
 
 import java.util.List;
 
+import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElementLocated;
+
 public class SearchSteps extends UIInteractionSteps {
 
     SearchForm searchForm;
@@ -16,6 +18,7 @@ public class SearchSteps extends UIInteractionSteps {
     public void searchForTerm(String searchTerm) {
         find(SearchForm.SEARCH_FIELD).sendKeys(searchTerm);
         find(SearchForm.SEARCH_BUTTON).click();
+        waitFor(presenceOfElementLocated(SearchForm.ARTICLE_HEADINGS));
     }
 
     @Step("Check the search results")

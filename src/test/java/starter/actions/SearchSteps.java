@@ -1,10 +1,7 @@
 package starter.actions;
 
-import net.serenitybdd.annotations.DefaultUrl;
 import net.serenitybdd.annotations.Step;
-import net.serenitybdd.annotations.Steps;
 import net.serenitybdd.core.steps.UIInteractionSteps;
-import org.openqa.selenium.Keys;
 import starter.pageobjects.SearchForm;
 
 import java.time.Duration;
